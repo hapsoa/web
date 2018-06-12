@@ -14,6 +14,9 @@ router.get('/firebase', function (req, res, next) {
     res.render('firebase');
 });
 
+router.get('/kakaotalk', function (req, res, next) {
+    res.render('kakaotalk/login');
+});
 
 
 module.exports = router;
