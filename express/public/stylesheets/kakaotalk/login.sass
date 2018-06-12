@@ -1,26 +1,6 @@
-$test-border: 1px solid #777
-
-*
-  box-sizing: border-box
-
-body
-  margin: 0
-  display: flex
-  font-family: "Nanum Gothic", serif
-
-.empty-column-box
-  flex: 1
+@import global
 
 .content
-  width: 360px
-  max-width: 360px
-  min-width: 360px
-  height: 640px
-
-  display: flex
-  align-items: center
-  flex-direction: column
-
   background-color: #FBE300
 
 .window-button-box
@@ -31,8 +11,6 @@ body
   align-items: center
 
   color: rgba(0,0,0,0.3)
-  //font-weight: bolder
-  border: $test-border
   > i
     cursor: pointer
     padding-left: 7px
@@ -44,7 +22,7 @@ img.logo
   width: 100px
   height: 100px
   margin: 50px 0
-  border: $test-border
+
 
 form.user-info
   width: 250px
@@ -64,12 +42,15 @@ form.user-info
       width: 100%
       height: 100%
       margin: 0
+      border: 0
     > i
       position: absolute
       right: 10px
       align-self: center
 
       cursor: pointer
+  > #email
+    border-bottom: 1px solid rgba(0,0,0,0.1)
 
 form.login
   width: 255px
@@ -94,12 +75,15 @@ form.login
   width: 250px
   height: 30px
   margin-bottom: 20px
-  border: $test-border
+
   > label
     width: 100%
     height: 100%
     display: flex
     align-items: center
+
+    font-size: 0.8rem
+    color: #675353
     > input
       width: 15px
       height: 15px
@@ -108,10 +92,21 @@ form.login
   width: 255px
   height: 100px
 
-  border: $test-border
+  font-size: 0.8rem
+  > .detail-explanation
+    color: #675353
+  > .guide
+    text-decoration-line: underline
+    cursor: pointer
 
 .guide-password
   width: 180px
-  height: 40px
+  height: 30px
 
+  color: #675353
+  font-size: 0.8rem
   border: $test-border
+  text-align: center
+  line-height: 28px
+  border-radius: 5px
+  cursor: pointer
