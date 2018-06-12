@@ -6,6 +6,7 @@ $test-border: 1px solid #777
 body
   margin: 0
   display: flex
+  font-family: "Nanum Gothic", serif
 
 .empty-column-box
   flex: 1
@@ -16,16 +17,101 @@ body
   min-width: 360px
   height: 640px
 
-  background-color: #ffe92d
+  display: flex
+  align-items: center
+  flex-direction: column
+
+  background-color: #FBE300
 
 .window-button-box
   width: 100%
   height: 30px
+  display: flex
+  justify-content: flex-end
+  align-items: center
+
+  color: rgba(0,0,0,0.3)
+  //font-weight: bolder
+  border: $test-border
+  > i
+    cursor: pointer
+    padding-left: 7px
+  > i#menu
+    border-right: rgba(0,0,0,0.3) 1px solid
+    padding-right: 7px
+
+img.logo
+  width: 100px
+  height: 100px
+  margin: 50px 0
+  border: $test-border
+
+form.user-info
+  width: 250px
+  height: 100px
+  margin: 10px 0
+
+  background-color: white
+  border: rgba(0,0,0,0.2) 1px solid
+
+  > .info-box
+    position: relative
+    width: 100%
+    height: 50%
+    display: flex
+
+    > input
+      width: 100%
+      height: 100%
+      margin: 0
+    > i
+      position: absolute
+      right: 10px
+      align-self: center
+
+      cursor: pointer
+
+form.login
+  width: 255px
+  height: 60px
+  margin-bottom: 10px
+
+  background-color: #675353
+  border-radius: 5px
+  > input
+    width: 100%
+    height: 100%
+
+    border-radius: 5px
+    background-color: #675353
+    border: #675353
+    cursor: pointer
+
+    color: rgba(255, 255, 255, 0.3)
+    font-size: 1rem
+
+.login-option
+  width: 250px
+  height: 30px
+  margin-bottom: 20px
+  border: $test-border
+  > label
+    width: 100%
+    height: 100%
+    display: flex
+    align-items: center
+    > input
+      width: 15px
+      height: 15px
+
+.guide-id
+  width: 255px
+  height: 100px
 
   border: $test-border
 
-.logo
-  width: 50%
-  height: 300px
-  background-image: url("../../images/kakao-talk/logo.png")
-  background-size: 100% 100%
+.guide-password
+  width: 180px
+  height: 40px
+
+  border: $test-border
