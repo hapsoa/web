@@ -1,27 +1,34 @@
 @import global
 
 .content
-  border: $test-border
 
 .category
   width: 100%
   height: 50px
   display: flex
 
-  border: $test-border
+  background-color: #f8f8f8
   > .profile-button
-    @include category-button
+    i
+      font-size: 2rem
+    &:hover
   > .chatting-button
-    @include category-button
+    i
+      font-size: 2rem
   > .news-button
-    @include category-button
+    i
+      font-size: 2rem
   > .etc-button
-    @include category-button
+    i
+      font-size: 2rem
 
 .button
   @include category-button
+  &:hover
+    color: #00B7FF
+    border-bottom: 1px solid #444
 
-.profiles
+.lists
   flex: 1
   width: 100%
   display: flex
@@ -31,18 +38,16 @@
   > .my-profile
     width: 100%
 
-    border: $test-border
   > .group
     width: 100%
 
-    border: $test-border
   > .friends
     width: 100%
     flex: 1
-    border: $test-border
+
   .title
     height: 20px
-    margin: 0 10px
+    @include margin-10-horizon
 
     line-height: 20px
     font-size: 0.6rem
@@ -53,21 +58,42 @@
     display: flex
     align-items: center
     > img
-      height: 80%
+      height: 40px
+      width: 40px
       border-radius: 50%
-      margin: 0 10px
-    #plus-friend
-      background-color: #FBE300
+      @include margin-10-horizon
+    .name
+      flex: 1
+      height: 100%
+      line-height: 46px
+    .introduce
+      color: #aaaaaa
+      font-size: 0.8rem
+      height: 100%
+      line-height: 44px
+      @include margin-10-horizon
     &:hover
       background-color: rgba(200,200,200,0.1)
-
+  #plus-friend
+    > img
+      background-color: #FBE300
+    > .introduce
+      margin: 0
+    > i
+      color: #aaaaaa
+      height: 100%
+      line-height: 45px
+      font-size: 1rem
 .util-box
   width: 100%
   height: 40px
   display: flex
 
-  border: $test-border
+  background-color: #f0f0f0
   //> .button-1
   //> .button-2
   //> .button-3
 
+
+::-webkit-scrollbar
+  display: none

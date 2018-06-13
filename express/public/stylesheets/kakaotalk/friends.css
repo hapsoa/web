@@ -19,76 +19,88 @@ body {
   align-items: center;
   flex-direction: column; }
 
-.content {
-  border: 1px solid #777; }
-
 .category {
   width: 100%;
   height: 50px;
   display: flex;
-  border: 1px solid #777; }
-  .category > .profile-button {
-    flex: 1;
-    cursor: pointer;
-    border: 1px solid #777; }
-  .category > .chatting-button {
-    flex: 1;
-    cursor: pointer;
-    border: 1px solid #777; }
-  .category > .news-button {
-    flex: 1;
-    cursor: pointer;
-    border: 1px solid #777; }
-  .category > .etc-button {
-    flex: 1;
-    cursor: pointer;
-    border: 1px solid #777; }
+  background-color: #f8f8f8; }
+  .category > .profile-button i {
+    font-size: 2rem; }
+  .category > .chatting-button i {
+    font-size: 2rem; }
+  .category > .news-button i {
+    font-size: 2rem; }
+  .category > .etc-button i {
+    font-size: 2rem; }
 
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1;
-  cursor: pointer;
-  border: 1px solid #777; }
+  cursor: pointer; }
+  .button:hover {
+    color: #00B7FF;
+    border-bottom: 1px solid #444; }
 
-.profiles {
+.lists {
   flex: 1;
   width: 100%;
   display: flex;
   flex-direction: column;
   overflow: auto; }
-  .profiles > .my-profile {
+  .lists > .my-profile {
+    width: 100%; }
+  .lists > .group {
+    width: 100%; }
+  .lists > .friends {
     width: 100%;
-    border: 1px solid #777; }
-  .profiles > .group {
-    width: 100%;
-    border: 1px solid #777; }
-  .profiles > .friends {
-    width: 100%;
-    flex: 1;
-    border: 1px solid #777; }
-  .profiles .title {
+    flex: 1; }
+  .lists .title {
     height: 20px;
     margin: 0 10px;
     line-height: 20px;
     font-size: 0.6rem;
     color: #aaaaaa; }
-  .profiles .profile {
+  .lists .profile {
     width: 100%;
     height: 50px;
     display: flex;
     align-items: center; }
-    .profiles .profile > img {
-      height: 80%;
+    .lists .profile > img {
+      height: 40px;
+      width: 40px;
       border-radius: 50%;
       margin: 0 10px; }
-    .profiles .profile #plus-friend {
-      background-color: #FBE300; }
-    .profiles .profile:hover {
+    .lists .profile .name {
+      flex: 1;
+      height: 100%;
+      line-height: 46px; }
+    .lists .profile .introduce {
+      color: #aaaaaa;
+      font-size: 0.8rem;
+      height: 100%;
+      line-height: 44px;
+      margin: 0 10px; }
+    .lists .profile:hover {
       background-color: rgba(200, 200, 200, 0.1); }
+  .lists #plus-friend > img {
+    background-color: #FBE300; }
+  .lists #plus-friend > .introduce {
+    margin: 0; }
+  .lists #plus-friend > i {
+    color: #aaaaaa;
+    height: 100%;
+    line-height: 45px;
+    font-size: 1rem; }
 
 .util-box {
   width: 100%;
   height: 40px;
   display: flex;
-  border: 1px solid #777; }
+  background-color: #f0f0f0; }
+
+::-webkit-scrollbar {
+  display: none; }
 
 /*# sourceMappingURL=friends.css.map */

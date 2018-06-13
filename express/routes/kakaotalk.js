@@ -5,8 +5,8 @@ router.get('/login', function (req, res, next) {
     res.render('kakaotalk/login');
 });
 
-router.get('/friends', function (req, res, next) {
-    res.render('kakaotalk/friends');
+router.get('/main', function (req, res, next) {
+    res.render('kakaotalk/main');
 });
 
 module.exports = router;
