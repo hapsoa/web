@@ -1,20 +1,20 @@
-extends layout.pug
+extends basic
 
 block link
-    link(rel='stylesheet', href='/stylesheets/kakaotalk/friends.css')
+    block friends-style
 
 block content
     .category
-        .profile-button.button
+        a(href="/kakaotalk/friends").profile-button.button
             i.material-icons person
-        .chatting-button.button
+        a(href="/kakaotalk/chatting-list").chatting-button.button
             i.far.fa-comment
         .news-button.button
             i.far.fa-newspaper
         .etc-button.button
             i.material-icons more_horiz
     .lists
-        include friends
+        block friends
     .util-box
         .button-1.button
             i.fas.fa-exchange-alt

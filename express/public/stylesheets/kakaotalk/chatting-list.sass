@@ -1,0 +1,27 @@
+@import global
+@import main
+
+.lists
+  @include lists-basic-property
+
+  .chatting-list
+    display: flex
+    height: 50px
+    min-height: 50px
+    width: 100%
+
+    &:hover
+      background-color: rgba(200,200,200,0.1)
+
+    > img
+      @include profile-image-property
+    > .content-box
+      flex: 1
+      display: flex
+      flex-direction: column
+      justify-content: center
+      height: 100%
+      > .name
+        font-size: 0.9rem
+      > .sentence
+        font-size: 0.7rem
