@@ -17,4 +17,8 @@ router.get('/chatting-list', function (req, res, next) {
     res.render('kakaotalk/chatting-list');
 });
 
+router.get('/configure', function (req, res, next) {
+    res.render('kakaotalk/configure');
+});
+
 module.exports = router;

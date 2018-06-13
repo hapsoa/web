@@ -1,7 +1,10 @@
 extends main.pug
 
-block friends-style
+block link
     link(rel='stylesheet', href='/stylesheets/kakaotalk/chatting-list.css')
+
+block category
+    include category
 
 block friends
     .chatting-list

@@ -1,18 +1,11 @@
 extends basic
 
 block link
-    block friends-style
 
 block content
     .category
-        a(href="/kakaotalk/friends").profile-button.button
-            i.material-icons person
-        a(href="/kakaotalk/chatting-list").chatting-button.button
-            i.far.fa-comment
-        .news-button.button
-            i.far.fa-newspaper
-        .etc-button.button
-            i.material-icons more_horiz
+        block category
+
     .lists
         block friends
     .util-box
