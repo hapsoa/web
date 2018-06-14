@@ -23,15 +23,13 @@
   width: 100%;
   height: 430px;
   background: url("../../images/kakao-talk/profile-background.jpeg") center;
-  background-size: cover;
-  border: 1px solid #777; }
+  background-size: cover; }
   .background-image > .top-menu-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 50px;
-    border: 1px solid #777; }
+    height: 50px; }
     .background-image > .top-menu-box > a {
       text-decoration-line: none;
       color: white;
@@ -43,8 +41,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 30px;
-    border: 1px solid #777; }
+    height: 30px; }
     .background-image > .bottom-menu-box > a {
       display: flex;
       justify-content: center;
@@ -77,30 +74,44 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 170px;
-  border: 1px solid #777; }
+  height: 170px; }
   .profile-content > .name {
     width: 100%;
     height: 20px;
     margin-top: 30px;
-    text-align: center;
-    border: 1px solid #777; }
+    text-align: center; }
   .profile-content > .phone-number {
     height: 20px;
     text-align: center;
-    font-size: 0.8rem;
-    border: 1px solid #777; }
+    font-size: 0.7rem; }
   .profile-content > .buttons-box {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 60px;
-    margin-top: 20px;
-    border: 1px solid #777; }
+    margin-top: 20px; }
     .profile-content > .buttons-box > .button-box {
-      width: 45px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 65px;
       height: 100%;
-      margin: 0 20px;
-      border: 1px solid #777; }
+      margin: 0 10px; }
+      .profile-content > .buttons-box > .button-box > .icon-background {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        min-height: 40px;
+        background-color: #eee;
+        border-radius: 50%; }
+        .profile-content > .buttons-box > .button-box > .icon-background > i {
+          color: #533f3e; }
+        .profile-content > .buttons-box > .button-box > .icon-background > i.fas.fa-comment {
+          font-size: 1.3rem; }
+      .profile-content > .buttons-box > .button-box > .title {
+        font-size: 0.7rem; }
 
 /*# sourceMappingURL=personal-profile.css.map */

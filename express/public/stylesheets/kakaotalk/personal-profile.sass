@@ -17,7 +17,7 @@
 
   background: url("../../images/kakao-talk/profile-background.jpeg") center
   background-size: cover
-  border: $test-border
+
   > .top-menu-box
     display: flex
     align-items: center
@@ -25,7 +25,7 @@
 
     width: 100%
     height: 50px
-    border: $test-border
+
     > a
       @include atag-icon-deco
       @include margin-10-horizon
@@ -40,7 +40,6 @@
     width: 100%
     height: 30px
 
-    border: $test-border
     > a
       display: flex
       justify-content: center
@@ -79,11 +78,8 @@
   flex-direction: column
   align-items: center
 
-
   width: 100%
   height: 170px
-
-  border: $test-border
 
   > .name
     width: 100%
@@ -91,13 +87,13 @@
     margin-top: 30px
 
     text-align: center
-    border: $test-border
+
   > .phone-number
     height: 20px
 
     text-align: center
-    font-size: 0.8rem
-    border: $test-border
+    font-size: 0.7rem
+
   > .buttons-box
     display: flex
     justify-content: center
@@ -106,11 +102,33 @@
     height: 60px
     margin-top: 20px
 
-    border: $test-border
-
     > .button-box
-      width: 45px
-      height: 100%
-      margin: 0 20px
+      display: flex
+      flex-direction: column
+      align-items: center
 
-      border: $test-border
+      width: 65px
+      height: 100%
+      @include margin-10-horizon
+
+      > .icon-background
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+
+        width: 40px
+        height: 40px
+        min-height: 40px
+
+        background-color: #eee
+        border-radius: 50%
+
+        > i
+          color: #533f3e
+
+        > i.fas.fa-comment
+          font-size: 1.3rem
+
+      > .title
+        font-size: 0.7rem
