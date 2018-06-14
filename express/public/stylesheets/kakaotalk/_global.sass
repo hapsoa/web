@@ -1,28 +1,5 @@
 $test-border: 1px solid #777
 
-*
-  box-sizing: border-box
-
-body
-  margin: 0
-  display: flex
-  font-family: "Nanum Gothic", serif
-
-.empty-column-box
-  flex: 1
-
-.content
-  width: 360px
-  max-width: 360px
-  min-width: 360px
-  height: 640px
-  min-height: 640px
-  display: flex
-  align-items: center
-  flex-direction: column
-
-
-
 @mixin category-button
   display: flex
   justify-content: center
@@ -47,3 +24,12 @@ body
   width: 40px
   border-radius: 50%
   margin: 0 10px
+
+@mixin atag-icon-deco
+  text-decoration-line: none
+  color: white
+
+@mixin icon-button-hover-property
+  cursor: pointer
+  &:hover
+    color: #00B7FF

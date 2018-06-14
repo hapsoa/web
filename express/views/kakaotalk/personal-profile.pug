@@ -1,0 +1,33 @@
+extends basic
+
+block link
+    link(rel='stylesheet', href='/stylesheets/kakaotalk/personal-profile.css')
+
+block content
+    .background-image
+        .top-menu-box
+            a(href="javascript:history.back()")
+                i.material-icons close
+            a
+                i.material-icons insert_photo
+
+        .bottom-menu-box
+            a
+                i.fas.fa-gift
+            a
+                i.fas.fa-won-sign
+            .empty-column-box
+            a
+                i.material-icons star
+
+        .title-image
+    .profile-content
+        .name 문재인
+        .phone-number 010-1234-5678
+        .buttons-box
+            .button-box
+            .button-box
+            .button-box
+    .util-box
+        include util-box
+

@@ -21,4 +21,8 @@ router.get('/configure', function (req, res, next) {
     res.render('kakaotalk/configure');
 });
 
+router.get('/personal-profile', function (req, res, next) {
+    res.render('kakaotalk/personal-profile');
+});
+
 module.exports = router;
