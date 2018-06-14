@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="750aadec-fbb0-4a0b-bb5a-31db696f5573" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting-list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting-list.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/configure.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/configure.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/configure.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/configure.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/configure.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/configure.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/friends.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/friends.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/friends.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/friends.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/kakaotalk/configure.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/kakaotalk/configure.pug" afterDir="false" />
-    </list>
+    <list default="true" id="750aadec-fbb0-4a0b-bb5a-31db696f5573" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -343,12 +333,12 @@
       <workItem from="1528844297346" duration="11427000" />
       <workItem from="1528867809309" duration="12022000" />
       <workItem from="1528932513695" duration="2181000" />
-      <workItem from="1528940419820" duration="3631000" />
+      <workItem from="1528940419820" duration="4229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143000000" />
+    <option name="totallyTimeSpent" value="143598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="6" />
