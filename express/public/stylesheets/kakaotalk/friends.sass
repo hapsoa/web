@@ -26,6 +26,12 @@
     align-items: center
     > img
       @include profile-image-property
+    > .profile-image
+      @include profile-image-property
+
+      background-size: cover
+      background-position: center
+    @include profile
     .name
       flex: 1
       height: 100%
@@ -39,7 +45,7 @@
     &:hover
       background-color: rgba(200,200,200,0.1)
   #plus-friend
-    > img
+    > .profile-image
       background-color: #FBE300
     > .introduce
       margin: 0

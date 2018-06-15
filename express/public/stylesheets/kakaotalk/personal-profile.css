@@ -66,8 +66,7 @@
     background-image: url("../../images/kakao-talk/title-profile.jpg");
     background-position: 50% 20%;
     background-size: cover;
-    border-radius: 50%;
-    border: 1px solid #777; }
+    border-radius: 50%; }
 
 .profile-content {
   display: flex;

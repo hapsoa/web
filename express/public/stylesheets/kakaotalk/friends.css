@@ -28,6 +28,35 @@
       width: 40px;
       border-radius: 50%;
       margin: 0 10px; }
+    .lists .profile > .profile-image {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      margin: 0 10px;
+      background-size: cover;
+      background-position: center; }
+    .lists .profile .profile-1 {
+      background-image: url("../../images/kakao-talk/profile-1.jpg"); }
+    .lists .profile .profile-2 {
+      background-image: url("../../images/kakao-talk/plus-friend.png"); }
+    .lists .profile .profile-3 {
+      background-image: url("../../images/kakao-talk/profile-2.jpg"); }
+    .lists .profile .profile-4 {
+      background-image: url("../../images/kakao-talk/profile-3.jpg"); }
+    .lists .profile .profile-5 {
+      background-image: url("../../images/kakao-talk/profile-4.jpg"); }
+    .lists .profile .profile-6 {
+      background-image: url("../../images/kakao-talk/profile-9.jpg"); }
+    .lists .profile .profile-7 {
+      background-image: url("../../images/kakao-talk/profile-5.jpg"); }
+    .lists .profile .profile-8 {
+      background-image: url("../../images/kakao-talk/profile-6.jpg"); }
+    .lists .profile .profile-9 {
+      background-image: url("../../images/kakao-talk/profile-7.jpg"); }
+    .lists .profile .profile-10 {
+      background-image: url("../../images/kakao-talk/profile-8.jpg"); }
+    .lists .profile .profile-11 {
+      background-image: url("../../images/kakao-talk/profile-10.jpg"); }
     .lists .profile .name {
       flex: 1;
       height: 100%;
@@ -40,7 +69,7 @@
       margin: 0 10px; }
     .lists .profile:hover {
       background-color: rgba(200, 200, 200, 0.1); }
-  .lists #plus-friend > img {
+  .lists #plus-friend > .profile-image {
     background-color: #FBE300; }
   .lists #plus-friend > .introduce {
     margin: 0; }
