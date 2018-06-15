@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "chatting.css",
+	"sources": [
+		"chatting.sass",
+		"_global.sass"
+	],
+	"names": [],
+	"mappings": ""
+}

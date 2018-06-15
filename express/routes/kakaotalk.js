@@ -25,4 +25,8 @@ router.get('/personal-profile', function (req, res, next) {
     res.render('kakaotalk/personal-profile');
 });
 
+router.get('/chatting', function (req, res, next) {
+    res.render('kakaotalk/chatting');
+});
+
 module.exports = router;

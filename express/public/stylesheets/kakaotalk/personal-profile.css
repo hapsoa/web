@@ -111,6 +111,8 @@
           color: #533f3e; }
         .profile-content > .buttons-box > .button-box > .icon-background > i.fas.fa-comment {
           font-size: 1.3rem; }
+      .profile-content > .buttons-box > .button-box a {
+        text-decoration-line: none; }
       .profile-content > .buttons-box > .button-box > .title {
         font-size: 0.7rem; }
 
