@@ -53,6 +53,8 @@ a.login {
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
   line-height: 56px; }
+  a.login:hover {
+    color: #00B7FF; }
 
 .login-option {
   width: 250px;
@@ -89,5 +91,8 @@ a.login {
   line-height: 28px;
   border-radius: 5px;
   cursor: pointer; }
+  .guide-password:hover {
+    color: #00B7FF;
+    border-color: #00B7FF; }
 
 /*# sourceMappingURL=login.css.map */

@@ -52,13 +52,23 @@
       border-radius: 50%
       border: solid 1px #eee
 
+      &:hover
+        border-color: #00B7FF
+        > i
+         color: #00B7FF
+
       > i
         color: #eee
         cursor: pointer
+
       > i.fas
-        font-size: 1rem
+        font-size: 0.8rem
+      > i.fas.fa-gift
+        padding-bottom : 1px
+        padding-left: 1px
+
       > i.material-icons
-        font-size: 1.2rem
+        font-size: 1rem
 
   > .title-image
     position: absolute
@@ -99,7 +109,7 @@
 
     width: 100%
     height: 60px
-    margin-top: 20px
+    margin-top: 10px
 
     > .button-box
       display: flex
@@ -119,6 +129,7 @@
         width: 40px
         height: 40px
         min-height: 40px
+        margin-bottom: 10px
 
         background-color: #eee
         border-radius: 50%

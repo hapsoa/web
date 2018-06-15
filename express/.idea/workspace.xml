@@ -3,23 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="750aadec-fbb0-4a0b-bb5a-31db696f5573" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/_global.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/_global.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting-list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting-list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting-list.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting-list.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting-list.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/configure.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/configure.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/configure.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/configure.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/friends.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/friends.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/friends.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/friends.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/friends.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/friends.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/login.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/login.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/login.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/login.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/personal-profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/personal-profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/personal-profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/personal-profile.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/kakaotalk/personal-profile.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/kakaotalk/personal-profile.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/kakaotalk/chatting-list.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/kakaotalk/chatting-list.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/kakaotalk/chatting.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/kakaotalk/chatting.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/kakaotalk/friends.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/kakaotalk/friends.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/카카오톡 설계(win).md" beforeDir="false" afterPath="$PROJECT_DIR$/카카오톡 설계(win).md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,41 +30,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5012626">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="configure.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/kakaotalk/configure.pug">
+          <file leaf-file-name="login.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/views/kakaotalk/login.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="20">
-                  <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+                <state relative-caret-position="320">
+                  <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/kakaotalk/main.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="32">
-                  <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="friends.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/kakaotalk/friends.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="chatting-list.pug" pinned="false" current-in-tab="true">
+          <file leaf-file-name="chatting-list.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/kakaotalk/chatting-list.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="333">
-                  <caret line="61" column="34" lean-forward="true" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+                <state relative-caret-position="408">
+                  <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="personal-profile.pug" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/views/kakaotalk/personal-profile.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="304">
+                  <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -74,21 +63,39 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="friends.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/friends.sass">
+        <leaf>
+          <file leaf-file-name="personal-profile.sass" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/personal-profile.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="445">
-                  <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="20" />
+                <state relative-caret-position="192">
+                  <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="chatting-list.sass" pinned="false" current-in-tab="true">
+          <file leaf-file-name="login.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/login.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="224">
+                  <caret line="78" column="17" lean-forward="true" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_global.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/_global.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="488">
+                  <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="chatting-list.sass" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting-list.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="464">
-                  <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+                <state relative-caret-position="512">
+                  <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
                 </state>
               </provider>
             </entry>
@@ -155,7 +162,6 @@
         <option value="$PROJECT_DIR$/views/kakaotalk/layout.pug" />
         <option value="$PROJECT_DIR$/public/stylesheets/firebase.sass" />
         <option value="$PROJECT_DIR$/views/kakaotalk/login.pug" />
-        <option value="$PROJECT_DIR$/public/stylesheets/kakaotalk/login.sass" />
         <option value="$PROJECT_DIR$/카카오톡 설계(win)2.md" />
         <option value="$PROJECT_DIR$/views/kakaotalk/chat.pug" />
         <option value="$PROJECT_DIR$/public/stylesheets/kakaotalk/chat.sass" />
@@ -171,14 +177,15 @@
         <option value="$PROJECT_DIR$/public/stylesheets/kakaotalk/configure.sass" />
         <option value="$PROJECT_DIR$/routes/kakaotalk.js" />
         <option value="$PROJECT_DIR$/views/kakaotalk/personal-profile.pug" />
-        <option value="$PROJECT_DIR$/public/stylesheets/kakaotalk/personal-profile.sass" />
         <option value="$PROJECT_DIR$/views/kakaotalk/chatting.pug" />
         <option value="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting.sass" />
         <option value="$PROJECT_DIR$/views/kakaotalk/friends.pug" />
         <option value="$PROJECT_DIR$/public/stylesheets/kakaotalk/_global.sass" />
         <option value="$PROJECT_DIR$/public/stylesheets/kakaotalk/friends.sass" />
         <option value="$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting-list.sass" />
+        <option value="$PROJECT_DIR$/public/stylesheets/kakaotalk/login.sass" />
         <option value="$PROJECT_DIR$/views/kakaotalk/chatting-list.pug" />
+        <option value="$PROJECT_DIR$/public/stylesheets/kakaotalk/personal-profile.sass" />
       </list>
     </option>
   </component>
@@ -198,10 +205,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="624" />
+    <option name="y" value="-21" />
     <option name="width" value="1440" />
-    <option name="height" value="805" />
+    <option name="height" value="807" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -225,19 +233,6 @@
               <item name="express" type="b2602c69:ProjectViewProjectNode" />
               <item name="express" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="kakao-talk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -246,11 +241,6 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
               <item name="kakaotalk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="express" type="b2602c69:ProjectViewProjectNode" />
@@ -347,23 +337,27 @@
       <workItem from="1528971007293" duration="3741000" />
       <workItem from="1528982995575" duration="2770000" />
       <workItem from="1529025943513" duration="12289000" />
+      <workItem from="1529074442192" duration="36000" />
+      <workItem from="1529074505012" duration="168000" />
+      <workItem from="1529074690268" duration="27000" />
+      <workItem from="1529074850765" duration="303000" />
+      <workItem from="1529075217580" duration="1660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177558000" />
+    <option name="totallyTimeSpent" value="179752000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="805" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1721" height="935" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.82550335" visible="true" weight="0.18604651" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8229462" visible="true" weight="0.1591449" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50059384" side_tool="true" weight="0.11528822" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="npm" order="2" sideWeight="0.17449665" side_tool="true" weight="0.15151516" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25564972" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994062" weight="0.11528822" />
+      <window_info id="npm" order="2" sideWeight="0.17705382" side_tool="true" weight="0.1591449" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -379,22 +373,22 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info id="npm" order="2" sideWeight="0.17449665" side_tool="true" weight="0.15151516" />
+      <window_info id="npm" order="2" sideWeight="0.17705382" side_tool="true" visible="true" weight="0.1591449" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8229462" visible="true" weight="0.1591449" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22533496" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994062" visible="true" weight="0.11528822" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.82550335" visible="true" weight="0.12829526" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3983051" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50059384" side_tool="true" visible="true" weight="0.11528822" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/login.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/kakao-talk/profile-1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -617,20 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/kakaotalk/personal-profile.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/personal-profile.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/kakaotalk/chatting.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
@@ -638,24 +611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/kakaotalk/login.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/_global.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -668,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/kakaotalk/configure.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="208">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -682,29 +641,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/kakaotalk/friends.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="208">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/friends.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="20" />
+        <state relative-caret-position="145">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/_global.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/login.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="78" column="17" lean-forward="true" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/kakaotalk/login.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/chatting-list.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="512">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/kakaotalk/chatting-list.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="61" column="34" lean-forward="true" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+        <state relative-caret-position="408">
+          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/kakaotalk/personal-profile.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/kakaotalk/personal-profile.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
         </state>
       </provider>
     </entry>

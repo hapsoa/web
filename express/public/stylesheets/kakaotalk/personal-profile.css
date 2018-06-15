@@ -51,13 +51,20 @@
       margin: 0 5px;
       border-radius: 50%;
       border: solid 1px #eee; }
+      .background-image > .bottom-menu-box > a:hover {
+        border-color: #00B7FF; }
+        .background-image > .bottom-menu-box > a:hover > i {
+          color: #00B7FF; }
       .background-image > .bottom-menu-box > a > i {
         color: #eee;
         cursor: pointer; }
       .background-image > .bottom-menu-box > a > i.fas {
-        font-size: 1rem; }
+        font-size: 0.8rem; }
+      .background-image > .bottom-menu-box > a > i.fas.fa-gift {
+        padding-bottom: 1px;
+        padding-left: 1px; }
       .background-image > .bottom-menu-box > a > i.material-icons {
-        font-size: 1.2rem; }
+        font-size: 1rem; }
   .background-image > .title-image {
     position: absolute;
     bottom: -20px;
@@ -88,7 +95,7 @@
     justify-content: center;
     width: 100%;
     height: 60px;
-    margin-top: 20px; }
+    margin-top: 10px; }
     .profile-content > .buttons-box > .button-box {
       display: flex;
       flex-direction: column;
@@ -104,6 +111,7 @@
         width: 40px;
         height: 40px;
         min-height: 40px;
+        margin-bottom: 10px;
         background-color: #eee;
         border-radius: 50%; }
         .profile-content > .buttons-box > .button-box > .icon-background > i {
