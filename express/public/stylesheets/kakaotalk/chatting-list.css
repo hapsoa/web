@@ -56,5 +56,8 @@
         font-size: 0.9rem; }
       .lists .chatting-list > .content-box > .sentence {
         font-size: 0.7rem; }
+    .lists .chatting-list > .time {
+      font-size: 0.6rem;
+      color: #aaaaaa; }
 
 /*# sourceMappingURL=chatting-list.css.map */
